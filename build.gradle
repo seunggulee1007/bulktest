@@ -21,8 +21,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.projectlombok:lombok:1.18.28'
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
-    implementation 'mysql:mysql-connector-java:8.0.28'
-    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+    runtimeOnly 'com.h2database:h2'
+    implementation 'mysql:mysql-connector-java:8.0.32'
     implementation 'org.postgresql:postgresql:42.7.0'
 
     compileOnly 'org.projectlombok:lombok'

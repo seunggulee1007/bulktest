@@ -1,0 +1,3 @@
+database:
+  batch-size: 500000
+  bulk-size: 6000000

@@ -1,8 +1,6 @@
 spring:
-  profiles:
-    include: common
   jpa:
-    database-platform: org.hibernate.dialect.MySQL57Dialect
+    database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: create-drop
     show-sql: false
@@ -13,11 +11,9 @@ spring:
           batch_versioned_data: true
         order_inserts: true
         order_updates: true
+
   datasource:
-    url:
-    username:
-    password:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.h2.Driver
 logging:
   level:
     root: info
@@ -27,7 +23,5 @@ logging:
     com:
       zaxxer:
         hikari: OFF
-      mysql: OFF
-    MySQL: OFF
 server:
-  port: 1111
+  port: 9232
