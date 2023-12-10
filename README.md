@@ -38,17 +38,20 @@
 |PostgreSQL | 81 | 800 |
 
 ### 3-1. postgres 600만 건
-![600만건 postgres](https://github.nhnent.com/storage/user/3652/files/3caf9e1f-a3a5-4b66-98ef-59aa4763f6e8)
+![600만건 postgres](https://github.com/seunggulee1007/bulktest/assets/32692807/e1353763-88a1-469c-963c-352e3dc29480)
+
 ### 3-2. MySQL 600만 건
-![600만건 MySQL](https://github.nhnent.com/storage/user/3652/files/f7e2047d-c2ee-4610-ac3a-1ace858fed0a)
+![600만건 MySQL](https://github.com/seunggulee1007/bulktest/assets/32692807/03692cdc-9d88-429a-b510-a3e3f520548a)
+
+
 ### 3-3. H2 inMemory 600만 건 
-![스크린샷 2023-12-08 오후 8 30 15](https://github.nhnent.com/storage/user/3652/files/06e54280-b9ff-43c7-a8b1-570c8e0dd521)
+![스크린샷 2023-12-08 오후 8 30 15](https://github.com/seunggulee1007/bulktest/assets/32692807/aec63848-4081-4b6a-9e64-5b8df6069baa)
 
 ## 4. rewriteBatchedStatements 옵션 여부
 
 ### 4-1. MySQL rewriteBatchedStatements 옵션 false 일 경우 100만건
-<img width="1251" alt="rewriteBatchedStatements2" src="https://github.nhnent.com/storage/user/3652/files/0e61c2de-259b-4994-9461-9ef67724c668">
+<img width="1134" alt="스크린샷 2023-12-07 오후 3 37 54" src="https://github.com/seunggulee1007/bulktest/assets/32692807/d0688844-8642-4e9c-9a3e-5da12a15a597">
 
 ### 4-2. MySQL rewriteBatchedStatements 옵션 true 일 경우 100만건
-<img width="1116" alt="rewriteBatchedStatements1" src="https://github.nhnent.com/storage/user/3652/files/4bfacd70-43ad-44ec-9501-653448ca3385">
+<img width="1102" alt="스크린샷 2023-12-07 오후 3 48 47" src="https://github.com/seunggulee1007/bulktest/assets/32692807/29ad5a61-48d5-42d3-a7f7-8cbc2bf51acc">
 
